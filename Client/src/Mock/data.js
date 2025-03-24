@@ -6,7 +6,7 @@ const USER_MAIN_DATA = [
             firstName: 'François',
             whoIam: [
                   "J'ai réalisé plusieurs formations web, au sein de Epitech et OpenClassrooms",
-                  "J'aime créer des produits frontend solides et évolutifs avec d'excellentes expériences utilisateur.",
+                  "Passionné par le développement web, j’aime concevoir des solutions efficaces et intuitives qui allient performance et design",
             ],
             jobs: 'Développeur Web',
             email: 'schmitt.francois.1699@gmail.com',
