@@ -279,7 +279,7 @@ const PROJECT_DATA = [
                   },
             ],
             githubUrl:
-                  'https://github.com/FrancoisSchmitt/schmitt_francois_2_Booki',
+                  'https://github.com/FrancoisSchmitt/Schmitt_Francois_01_Booki_22042024',
             projectUrl: 'https://schmitt-francois-booki.vercel.app/',
             __v: 0,
       },
@@ -350,7 +350,7 @@ const PROJECT_DATA = [
             ],
 
             githubUrl:
-                  'https://github.com/FrancoisSchmitt/SchmittFrancois_11_25052022',
+                  'https://github.com/FrancoisSchmitt/Schmitt_Francois_05_kasa_210102024',
             projectUrl: 'https://schmitt-francois-kasa.vercel.app/',
             __v: 0,
       },
