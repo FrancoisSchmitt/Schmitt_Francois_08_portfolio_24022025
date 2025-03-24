@@ -23,7 +23,7 @@ const EXPERIMENT_DATA = [
 
             experimentsDescription: [
                   "Dans le cadre de ma formation chez OpenClassrooms j'ai pu faire une alternance au sein d'A&A Partners",
-                  '',
+                  "A&A Partners permet de mettre des solutions innovantes de gestion, valorisation, publication des collections dans le monde de la culture et de l'art",
             ],
 
             experimentsGoal: [
