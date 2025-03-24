@@ -1,0 +1,28 @@
+body,
+html {
+      /* font-family: Roboto, Helvetica, sans-serif; */
+
+      font-family:
+            Helvetica Neue,
+            Helvetica,
+            Arial,
+            sans-serif !important;
+      /* 👇️ or use Operating system default fonts 👇️ */
+      /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+      /* background-color: #393e46; */
+      background-color: #101010;
+      color: #eeeeee;
+      scroll-behavior: smooth;
+      scroll-padding: 10rem;
+}
+
+a {
+      text-decoration: none;
+      color: #eeeeee;
+}
+
+code {
+      font-family: 'Roboto', sans-serif;
+}

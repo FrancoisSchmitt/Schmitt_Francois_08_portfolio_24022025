@@ -1,0 +1,184 @@
+/********** ABOUT-ME **********/
+.homepage-content-description {
+      animation: fadeInDescription 5.5s;
+}
+
+/********** END-ABOUT-ME **********/
+
+/********** MAIN **********/
+/* .aboutme-section {
+      height: 70vh;
+}
+
+.service-section {
+      height: 100vh;
+}
+
+.carrer-section,
+.skill-section {
+      height: 60vh;
+}
+
+.carrer-section {
+      margin-top: 2%;
+}
+
+.skill-section ul {
+      margin-top: 8%;
+} */
+
+.section-title-0,
+.section-title-1,
+.section-title-2,
+.section-title-3 {
+      font-size: 4em;
+      font-weight: 900;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: left;
+      /* margin-bottom: 2%; */
+      fill: none;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      -webkit-text-fill-color: transparent;
+      -webkit-text-stroke-width: 1px;
+}
+
+@media (max-width: 640px) {
+      /* .aboutme-section {
+            height: 70vh;
+            margin-top: 60%;
+      }
+
+      .service-section {
+            margin-top: -50%;
+            margin-bottom: 50%;
+            height: auto;
+      }
+
+      .project-section,
+      .carrer-section {
+            height: 70vh;
+      } */
+
+      .section-title-0,
+      .section-title-1,
+      .section-title-2,
+      .section-title-3 {
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 30px;
+      }
+}
+
+@media (min-width: 1600px) {
+      .project-section {
+            margin-bottom: 2%;
+      }
+}
+
+/********** END-MAIN **********/
+
+/********** ANIMATION-CARD-TITLE **********/
+@media screen and (min-device-width: 1200px) {
+      .section-title-1,
+      .section-title-2,
+      .section-title-3 {
+            opacity: 0;
+      }
+
+      .title-annimation-1,
+      .title-annimation-3,
+      .title-annimation-2 {
+            opacity: 0;
+            animation: revealTitle 500ms forwards;
+            transition:
+                  transform 500ms cubic-bezier(0, 0, 0.5, 1),
+                  opacity 500ms cubic-bezier(0, 0, 0.5, 1);
+      }
+
+      
+
+      .title-annimation-1 {
+            transform: translateY(25px);
+      }
+
+      .title-annimation-2 {
+            transform: translateY(100px);
+      }
+
+      .title-annimation-3 {
+            transform: translateY(100px);
+      }
+
+      @keyframes revealTitle {
+            from {
+                  transform: translateY(25px);
+            }
+
+            to {
+                  transform: translateY(0);
+                  opacity: 1;
+            }
+      }
+}
+
+/********** END-ANIMATION-CARD-TITLE **********/
+
+/********** ANIMATION-ABOUT-ME **********/
+@media screen and (min-device-width: 1200px) {
+      .homepage-content-description {
+            opacity: 0;
+      }
+
+      .homepage-content-description-animation-1,
+      .homepage-content-description-animation-2 {
+            opacity: 0;
+            transition:
+                  transform 500ms cubic-bezier(0, 0, 0.5, 1),
+                  opacity 500ms cubic-bezier(0, 0, 0.5, 1);
+      }
+
+      .homepage-content-description-animation-1 {
+            animation: revealDescriptionAboutMe 500ms forwards;
+      }
+
+      .homepage-content-description-animation-2 {
+            animation: secondRevealDescriptionAboutMe 500ms forwards;
+      }
+
+      @keyframes revealDescriptionAboutMe {
+            from {
+                  transform: translateY(-25px);
+            }
+
+            to {
+                  transform: translateX(0);
+                  opacity: 1;
+            }
+      }
+
+      @keyframes secondRevealDescriptionAboutMe {
+            from {
+                  transform: translateY(25px);
+            }
+
+            to {
+                  transform: translateX(0);
+                  opacity: 1;
+            }
+      }
+}
+
+/********** END-ANIMATION-ABOUT-ME **********/
+
+
+
+
+#root, section {
+      display: flex;
+      flex-direction: column;
+      gap: 3rem;
+}

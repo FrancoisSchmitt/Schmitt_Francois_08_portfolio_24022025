@@ -1,0 +1,210 @@
+.project-detail-section {
+      display: flex;
+      flex-direction: column;
+}
+
+@media (max-width: 640px) {
+      .dropdown-detail-section {
+            margin-top: 35%;
+      }
+}
+
+.detail-project-section {
+      padding-bottom: 10%;
+}
+
+.detail-project-section h1 {
+      font-size: 48px;
+      color: #85868a;
+      line-height: 1.0834933333;
+      font-weight: 600;
+      letter-spacing: -0.003em;
+      margin: 4%;
+      margin-left: 5%;
+}
+
+.container-project {
+      background-color: #000000;
+      /* height: 90vh; */
+      width: 90%;
+      margin: auto;
+      border-radius: 15px;
+}
+
+.project-list {
+      width: 80%;
+      padding: 67px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+}
+
+.content-container {
+      display: grid;
+      grid-template-columns: 494px 1fr;
+      justify-content: space-between;
+      align-items: center;
+      overflow: hidden;
+}
+
+.project-list li:not(:last-child) {
+      border-bottom: 2px solid#85868a;
+      width: 100%;
+}
+
+picture {
+      position: absolute;
+}
+
+.project-list li h4 {
+      font-size: 28px;
+      line-height: 1.1428571429;
+      font-weight: 600;
+      letter-spacing: 0.007em;
+      letter-spacing: inherit;
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      width: 100%;
+      position: relative;
+      padding-top: 1em;
+      padding-bottom: 1em;
+}
+
+.content-project-description p {
+      font-size: 17px;
+      color: #85868a;
+      line-height: 1.4705882353;
+      font-weight: 400;
+      letter-spacing: -0.022em;
+      margin-bottom: 2em;
+      flex-wrap: wrap;
+}
+
+.project-list li h4 svg {
+      color: #85868a;
+}
+
+.content-title {
+      display: flex;
+      align-items: center;
+      justify-content: start;
+}
+
+.content-title svg,
+.content-title img {
+      height: 40px;
+      width: 40px;
+}
+
+.content-title a {
+      margin: 1%;
+}
+
+.container-description {
+      width: 90%;
+      margin: 0;
+}
+
+.container-description,
+.content-project {
+      display: flex;
+      flex-direction: row;
+}
+
+.content-project {
+      width: 100%;
+}
+
+.content-project-image {
+      display: none;
+}
+
+.content-project-image {
+      display: flex;
+      position: relative;
+      justify-content: center;
+      align-items: center;
+      margin-top: 0;
+}
+
+.content-project-image img {
+      width: 60%;
+      object-fit: cover;
+      display: flex;
+      margin-left: auto;
+      margin-right: auto;
+      max-height: 800px;
+}
+
+.collapsed > div {
+      height: 0;
+      overflow: hidden;
+}
+
+.collapsed {
+      overflow: visible;
+}
+
+.hidden {
+      opacity: 0;
+}
+
+/********** ANIMATION-PROJECT-DETAIL **********/
+
+@media screen and (min-device-width: 1200px) {
+}
+
+/********** END-ANIMATION-PROJECT-DETAIL **********/
+
+/********** MOBIL-PROJECT-DETAIL **********/
+@media (max-width: 640px) {
+      .content-container {
+            display: flex;
+            flex-direction: column;
+      }
+
+      .content-title {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 5%;
+      }
+}
+
+/********** END-MOBIL-PROJECT-DETAIL **********/
+
+/********** END-TABLET-PROJECT-DETAIL **********/
+
+@media screen and (max-width: 1024px) {
+      .content-container {
+            display: flex;
+            flex-direction: column;
+      }
+
+      .content-title {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 5%;
+      }
+
+      .content-project-image {
+            /* margin-top: 45%; */
+      }
+
+      .content-project-image picture img {
+            width: 300px;
+            height: 300px;
+      }
+
+      .content-project-image {
+            display: flex;
+            height: 300px;
+            width: 300px;
+      }
+}
+
+/********** END-TABLET-PROJECT-DETAIL **********/

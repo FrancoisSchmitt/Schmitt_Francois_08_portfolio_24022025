@@ -1,0 +1,95 @@
+.dropdown-content {
+      width: 1023px;
+      margin-left: auto;
+      margin-right: auto;
+      /* position: relative; */
+      margin-bottom: 3%;
+}
+
+.title-dropdown {
+      display: flex;
+      border-radius: 5px;
+      position: relative;
+      width: 100%;
+      justify-content: space-between;
+      height: 50px;
+      background-color: #000000;
+}
+
+.title-dropdown h2 {
+      display: flex;
+      color: #eeeeee;
+      margin-left: 2.5%;
+      align-items: center;
+      font-size: 20px;
+}
+
+.title-dropdown svg {
+      display: flex;
+      margin-right: 2.5%;
+      align-items: center;
+      color: #eeeeee;
+      margin-top: auto;
+      margin-bottom: auto;
+}
+
+.dropdown-container-content {
+      background-color: #85868a;
+      height: auto;
+      border-bottom-right-radius: 5px;
+      border-bottom-left-radius: 5px;
+}
+
+.dropdown-container-content ul {
+      margin: auto;
+      /* color: #ff6060; */
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 34.22px;
+      width: 95%;
+      margin-left: auto;
+      margin-right: auto;
+      line-height: 142.6%;
+      list-style-type: none;
+      display: flex;
+      flex-direction: column;
+}
+
+.dropdown-container-content ul li {
+      display: flex;
+      flex-direction: column;
+      margin: 1%;
+      color: #ffffff;
+}
+
+.dropdown-container-content div {
+      padding-top: 2%;
+      padding-bottom: 2%;
+}
+
+@media only screen and (max-width: 375px) {
+      .dropdown-content {
+            width: 335px;
+      }
+}
+
+@media only screen and (max-width: 768px) {
+      .dropdown-content {
+            width: 91%;
+      }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1280px) {
+      .dropdown-content {
+            width: 91%;
+      }
+}
+
+@media (max-width: 640px) {
+      .dropdown-content {
+            width: 100%;
+      }
+      .dropdown-container-content ul {
+            font-size: 15px;
+      }
+}

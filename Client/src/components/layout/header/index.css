@@ -1,0 +1,46 @@
+.header,
+.header-nav,
+.header-list {
+      display: flex;
+}
+
+.header,
+.header-nav {
+      align-items: center;
+      height: 10vh;
+      width: 60%;
+      margin-right: 2%;
+}
+
+.header-list {
+      flex-direction: row;
+      justify-content: space-evenly;
+      width: 100%;
+}
+
+.header-list li a {
+      text-decoration: none;
+      font-weight: 500;
+      color: #eeeeee;
+      font-size: 18px;
+      text-transform: uppercase;
+}
+
+@media (max-width: 640px) {
+      .header,
+      .header-nav {
+            width: 100%;
+      }
+      .header-nav ul li a {
+            font-size: 14px;
+      }
+}
+@media (max-width: 1024px) {
+      .header,
+      .header-nav {
+            width: 100%;
+      }
+      .header-nav ul li a {
+            font-size: 14px;
+      }
+}

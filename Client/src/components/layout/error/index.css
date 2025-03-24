@@ -1,0 +1,49 @@
+.error-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 9%;
+}
+
+.error-content li {
+      display: flex;
+      justify-content: center;
+      padding: 2%;
+}
+
+.error-content li h1 {
+      font-size: 10em;
+      font-weight: 700;
+}
+
+.error-content li h2 {
+      font-size: 3em;
+      font-weight: 400;
+}
+
+.error-content li p {
+      font-size: 20px;
+      width: 60%;
+      text-align: center;
+}
+
+.error-content li a {
+      text-decoration: none;
+}
+
+@media (max-width: 640px) {
+      .error-content li h1 {
+            font-size: 5em;
+      }
+
+      .error-content li h2 {
+            font-size: 2em;
+      }
+
+      .error-content li p {
+            font-size: 1em;
+      }
+}

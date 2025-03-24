@@ -1,0 +1,27 @@
+.masonry {
+      transition: 0.5s ease;
+      max-height: 450px;
+      object-fit: cover;
+      margin: 0;
+      width: 100%;
+      box-shadow: 2px 4px 12px rgba(255, 255, 255, 0.08);
+      border-radius: 13px;
+      /* animation: fadeIn 5s; */
+}
+
+.masonry:hover {
+      transform: scale(1.01);
+      box-shadow: 2px 4px 16px rgba(255, 255, 255, 0.24);
+}
+
+@media (max-width: 640px) {
+      .masonry {
+            height: auto;
+      }
+}
+
+@media (min-width: 1600px) {
+      .masonry {
+            max-height: 700px;
+      }
+}
